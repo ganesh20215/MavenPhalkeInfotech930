@@ -19,7 +19,7 @@ public class HardAssertExample {
         Assert.assertFalse(s.contains("test"), "condition should true");
         Assert.assertNotNull(a, "String should not be null");
         System.out.println("Hiii");
-        Assert.assertNull(a, " your string should null    Hiiii");
+        Assert.assertNull(a, " your string should null    Hiiii Next");
     }
 
     @Test
