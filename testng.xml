@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="listners.IAnnotationListnersExample"></listener>
+    </listeners>
+    <parameter name="a" value="10"/>
+    <parameter name="b" value="20"/>
+    <parameter name="browserName" value="test"/>
+    <parameter name="keyword" value="Mango"/>
+    <test verbose="2" preserve-order="true" name="C:/Users/ganesh.jadhav/Repo/Maven930Batch">
+        <classes>
+            <class name="extendsreports.ExtendsReportExample"/>
+        </classes>
+    </test>
+</suite>
