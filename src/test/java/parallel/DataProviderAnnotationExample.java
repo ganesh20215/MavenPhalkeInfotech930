@@ -64,6 +64,7 @@ public class DataProviderAnnotationExample {
         WebElement element = driver.findElement(By.name("q"));
         element.sendKeys(keyword1, keyword2);
         element.sendKeys(Keys.ENTER);
+        System.out.println("Hello");
     }
 
     @AfterMethod
