@@ -65,6 +65,7 @@ public class DataProviderAnnotationExample {
         element.sendKeys(keyword1, keyword2);
         element.sendKeys(Keys.ENTER);
         System.out.println("Hello");
+        System.out.println("Hello");
     }
 
     @AfterMethod
